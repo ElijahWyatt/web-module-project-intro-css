@@ -55,7 +55,10 @@ html{
 body{
     font: size 1.6rem;
     font-size: 1.5;
-
+    /*background-color:#DDB9A3;*/
+}
+footer{
+    background-color: #F9E7DC;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
@@ -117,4 +120,25 @@ nav a{
 .right div{
     position:absolute;
     top:40%;
+}
+.right h2{
+    font-size: 2rem;
+    padding-top:5%;
+}
+
+.right p{
+    font-size: 2rem;
+    margin:5% 30%;
+}
+
+.main{
+    background-color:#DDB9A3;
+    
+}
+.empty{
+    height: 10vh;
+    background-image: url('assets\footer_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
