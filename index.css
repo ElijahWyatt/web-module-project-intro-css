@@ -136,8 +136,8 @@ nav a{
     
 }
 .empty{
-    height: 10vh;
-    background-image: url('assets\footer_img.jpg');
+    height: 50vh;
+    background-image: url('assets/footer_img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
