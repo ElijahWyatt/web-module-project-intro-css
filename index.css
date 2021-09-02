@@ -55,24 +55,18 @@ html{
 body{
     font: size 1.6rem;
     font-size: 1.5;
-    /*background-color:#DDB9A3;*/
 }
 footer{
     background-color: #F9E7DC;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
-}
-a{
-    font-family: 'Roboto Mono', monospace;
-    text-decoration: none;
-}
-span{
-    font-weight: bold;
+    font-size: 6rem;
 }
 section{
     padding: 4% 0;
+    width:90%;
+    margin: 0 auto;
 }
 nav{
     padding: 2% 0;
@@ -84,6 +78,7 @@ nav a{
     border-radius: 10px;
     text-align: center;
     color: white;
+    text-decoration: none;
 }
 .orange{
     background-color: #FF764E;
@@ -97,48 +92,57 @@ nav a{
     background-color: #FFCD69;
     margin-right: 10%;
 }
+/*a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+span{
+    font-weight: bold;
+}*/
 
 /*Titles Section Styles*/
 .titles{
-    text-align:center;
-    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .left, .right{
     display:inline-block;
 }
 .left{
     width:30%;
-    margin-left:5%;
 }
 .left img{
-    border-radius:50%;
+    border-radius: 50%;
 }
 .right{
-    width:55%;
+    width: 55%;
     margin-left: 5%;
-}
-.right div{
-    position:absolute;
-    top:40%;
-}
-.right h2{
-    font-size: 2rem;
-    padding-top:5%;
-}
-
-.right p{
-    font-size: 2rem;
-    margin:5% 30%;
+    text-align: center;
+    line-height: 3;
 }
 
 .main{
-    background-color:#DDB9A3;
-    
+    background-color: #DDB9A3;
+    color: #fff;
+    padding: 2%;
 }
+.content{
+    width: 30%;
+    margin:5%  auto;
+}
+.bold{
+    font-weight: bold;
+}
+
 .empty{
-    height: 50vh;
-    background-image: url('assets/footer_img.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+   background-image: url('assets/footer_img.jpg');
+   height: 50vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   width: 100%;
+}
+footer{
+    background-color: #F9E7DC;
 }
