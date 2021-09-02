@@ -63,6 +63,9 @@ h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 6rem;
 }
+h2{
+    font-size: 2rem;
+}
 section{
     padding: 4% 0;
     width:90%;
@@ -117,9 +120,11 @@ span{
 }
 .right{
     width: 55%;
+    margin-top: 3%;
     margin-left: 5%;
+    font-size: 2rem;
     text-align: center;
-    line-height: 3;
+    line-height: 2;
 }
 
 .main{
@@ -130,6 +135,10 @@ span{
 .content{
     width: 30%;
     margin:5%  auto;
+}
+.content p{
+    font-size: 2rem;
+    text-align: center;
 }
 .bold{
     font-weight: bold;
@@ -142,7 +151,4 @@ span{
    background-size: cover;
    background-position: top center;
    width: 100%;
-}
-footer{
-    background-color: #F9E7DC;
 }
